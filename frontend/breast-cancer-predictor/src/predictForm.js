@@ -128,7 +128,7 @@ const PredictForm = () => {
             </button>
             {prediction !== null && (
                 <div className="prediction-result">
-                    <h2>Breast Cancer Disease Prediction: {prediction === 0 ? 'Malignant' : 'Benign'}</h2>
+                    <h2>Breast Cancer Tumor Prediction: {prediction === 0 ? 'Malignant' : 'Benign'}</h2>
                 </div>
             )}
         </div>
