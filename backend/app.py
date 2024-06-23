@@ -6,6 +6,8 @@ from flask import Flask, request, jsonify
 import numpy as np
 import joblib
 from flask_cors import CORS
+import os
+
 
 # utlizing flask app
 app = Flask(__name__)

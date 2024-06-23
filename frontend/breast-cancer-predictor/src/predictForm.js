@@ -56,7 +56,8 @@ const PredictForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const input = Object.values(formData).map(value => parseFloat(value));
-        axios.post('http://127.0.0.1:5000/predict', { input })
+        axios.post('https://ml-breast-cancer.herokuapp.com/predict', { input })
+
             .then(response => {
                 setPrediction(response.data.prediction);
                 setButtonText('Prediction Completed!');
