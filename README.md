@@ -88,4 +88,8 @@ Worst Fractal Dimension: This measures the largest mean value of the fractal dim
 - npm (Node Package Manager)
 
 
+<<<<<<< HEAD
 Mouhamed Mbengue
+=======
+Mouhamed Mbengue
+>>>>>>> 4f71ae83f6724078af16e89186c6b5e9ea957230
